@@ -3,6 +3,7 @@
 import { profile, skills, projects, experience, nav, SectionId } from "@/app/lib/portfolio";
 import { scrollToSection } from "@/app/lib/scrollToSection";
 import { useActiveSection } from "@/app/hooks/useActiveSection";
+import { Toaster } from "react-hot-toast";
 
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
@@ -24,6 +25,8 @@ export default function PortfolioPage() {
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
+      <div><Toaster position="top-right"
+  reverseOrder={false}/></div>
       <Header profile={profile} nav={nav} activeSection={activeSection} onNavigate={onNavigate} />
 
       <main className="mx-auto max-w-6xl px-4 py-10 md:py-14 space-y-14">

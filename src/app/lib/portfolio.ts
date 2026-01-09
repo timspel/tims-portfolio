@@ -19,7 +19,12 @@ export const projects = [
     tags: ["Next.js", "UI", "UX", "TypeScript"," Tailwind CSS", "Graph Theory" ,"Vercel"],
     links: [{ label: "Code", href: "https://github.com/timspel/da391a_artefact" }, { label: "Live", href: "https://da391a-artefact.vercel.app/" },{ label: "Thesis", href: "https://mau.diva-portal.org/smash/get/diva2:1963912/FULLTEXT02.pdf" }]
   },
-  
+  {
+    name: "GymTime - Workout Generator App",
+    description: "A workout generator using OpenAI's GPT-4o to create personalized exercise routines based on user preferences, fitness levels, and goals. The app provides a seamless experience for users to receive tailored workout plans quickly. This project focus was to optimize the make it compatible for different devices and screen sizes using responsive design principles.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript", "OpenAI", "React"],
+    links: [{ label: "Code", href: "https://github.com/timspel/portfolio" }]
+  }
 ];
 
 export const experience = [

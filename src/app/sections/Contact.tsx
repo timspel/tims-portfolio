@@ -1,5 +1,6 @@
 import Section from "@/app/components/Section";
 import Card from "@/app/components/Card";
+import { toast } from "react-hot-toast";
 
 type Link = { label: string; href: string };
 type Profile = { name: string; email: string; links: Link[] };
@@ -31,6 +32,7 @@ export default function Contact({ profile }: { profile: Profile }) {
                 className="rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100"
                 onClick={() => {
                   if (navigator.clipboard) navigator.clipboard.writeText(profile.email);
+                  toast("Copied email to clipboard!", { icon: "📋" });
                 }}
               >
                 Copy email
