@@ -5,7 +5,7 @@ export const profile = {
   summary: "I build fast, accessible web experiences with React.",
   email: "tim.matthew.do@gmail.com",
   links: [
-    { label: "LinkedIn", href: "#" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/-tim-do" },
     { label: "Resume", href: "#" }
   ]
 };
@@ -40,7 +40,10 @@ export const experience = [
     role: "Project Leader and Full-Stack Developer",
     company: "Cura-Ami",
     period: "June 2025 - August 2025",
-    bullets: ["Built Apps for IOS and Android.", "Database schema design.", "Improved user experience.", "Agile methods."]
+    bullets: ["Led a team of five developers to design and implement a mobile application simulating life with diabetes, aimed at educating users on its causes and treatments. ",
+       "Collaborated with stakeholders from Gothenburg University and Malmö University to ensure the app meets research standards and user needs.", 
+       "Contributed to both back-end and front-end development using React-Native, including database schema design using Firestore, application logic, and UI/UX design, while using Agile methods to plan and meet milestones.", 
+       "Focused on refining core features, improving user experience, and deploying app on the Apple App Store and prepared to launch app to Google Play Store."]
   }
 ];
 

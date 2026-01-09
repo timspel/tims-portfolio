@@ -16,7 +16,7 @@ export default function Contact({ profile }: { profile: Profile }) {
           <Card>
             <h3 className="text-lg font-bold text-slate-900">Let’s talk</h3>
             <p className="mt-2 text-sm text-slate-700">
-              I’m open to full-time roles and freelance work. Email me and I’ll get back to you.
+              I’m open to full-time roles. Email me and I’ll get back to you.
             </p>
 
             <div className="mt-5 flex flex-wrap gap-3">
